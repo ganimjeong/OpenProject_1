@@ -3,6 +3,8 @@
  */
 package edu;
 
+import java.util.Scanner;
+
 /**
  * @author jeong-ganim
  *
@@ -18,9 +20,12 @@ public class Main {
 		int firstno, secondno;
 		int sum;
 		
-		//두수 입력
-		firstno= 10;
-		secondno = 20;
+		//두수 입력 : 라이브러리 사용해 입력하고싶
+		Scanner scan = new Scanner(System.in);
+		System.out.print("첫수 : ");
+		firstno= scan.nextInt();
+		System.out.print("두번째 수 : ");
+		secondno = scan.nextInt();
 		
 		//합계내
 		sum = firstno + secondno;
