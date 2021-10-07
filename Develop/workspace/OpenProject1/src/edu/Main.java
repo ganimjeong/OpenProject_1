@@ -32,6 +32,7 @@ public class Main {
 		
 		//합계출력
 		System.out.println("합계: "+ sum);
+		System.out.println("추가");
 
 	}
 
